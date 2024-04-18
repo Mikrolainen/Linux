@@ -1,0 +1,6 @@
+---
+- name: write hostname using jinja2
+  ansible.builtin.template:
+    src: test.j2
+    dest: /home/vagrant/hostname
+...
